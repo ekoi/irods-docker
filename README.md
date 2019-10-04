@@ -11,7 +11,7 @@ Execute the initialization scripts, **only once**!
         docker exec -it irods /bin/bash -c "/setup.ctl"
         docker exec -it irods /bin/bash -c "/iinit.tcl" 
         
- Confirmation the installation:
+ Confirm the installation:
  
         docker exec -it irods /bin/bash -c "ils"
         
